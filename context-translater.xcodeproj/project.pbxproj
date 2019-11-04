@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E13E21272370962F00E6AE3F /* HotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13E21262370962F00E6AE3F /* HotKey.framework */; };
 		E13E21282370962F00E6AE3F /* HotKey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E13E21262370962F00E6AE3F /* HotKey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E13E212B23709A9300E6AE3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E13E212A23709A9300E6AE3F /* README.md */; };
 		E1C9FB39237071DD0090715D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C9FB38237071DD0090715D /* AppDelegate.swift */; };
 		E1C9FB3D237071DD0090715D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C9FB3C237071DD0090715D /* Assets.xcassets */; };
 		E1C9FB40237071DD0090715D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C9FB3E237071DD0090715D /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		E13E21262370962F00E6AE3F /* HotKey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HotKey.framework; path = "context-translater/Carthage/Build/Mac/HotKey.framework"; sourceTree = "<group>"; };
+		E13E212A23709A9300E6AE3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E13E212E2370A7C000E6AE3F /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
 		E1C9FB35237071DD0090715D /* context-translater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "context-translater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C9FB38237071DD0090715D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C9FB3C237071DD0090715D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		E1C9FB2C237071DD0090715D = {
 			isa = PBXGroup;
 			children = (
+				E13E212A23709A9300E6AE3F /* README.md */,
 				E1C9FB37237071DD0090715D /* context-translater */,
 				E1C9FB36237071DD0090715D /* Products */,
 				E13E21252370962E00E6AE3F /* Frameworks */,
@@ -92,6 +96,7 @@
 		E1C9FB37237071DD0090715D /* context-translater */ = {
 			isa = PBXGroup;
 			children = (
+				E13E212E2370A7C000E6AE3F /* example.gif */,
 				E1C9FB38237071DD0090715D /* AppDelegate.swift */,
 				E1C9FB3C237071DD0090715D /* Assets.xcassets */,
 				E1C9FB4D237076CB0090715D /* Cartfile */,
@@ -169,6 +174,7 @@
 			files = (
 				E1C9FB54237076CB0090715D /* Cartfile in Resources */,
 				E1C9FB3D237071DD0090715D /* Assets.xcassets in Resources */,
+				E13E212B23709A9300E6AE3F /* README.md in Resources */,
 				E1C9FB40237071DD0090715D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
